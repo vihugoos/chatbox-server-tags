@@ -7,6 +7,8 @@ defmodule ChatboxTagsWeb.Router do
 
   scope "/api", ChatboxTagsWeb do
     pipe_through :api
+
+    post "/message", MessagesController, :create
   end
 
   # Enables LiveDashboard only for development
