@@ -17,6 +17,10 @@ config :chatbox_tags, ChatboxTagsWeb.Endpoint,
   pubsub_server: ChatboxTags.PubSub,
   live_view: [signing_salt: "q81gyO1y"]
 
+config :chatbox_tags, ChatboxTags.Scheduler, jobs: [
+  {"* * * * *", {ChatboxTags.Tags.Count, :call, []}},
+]
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails

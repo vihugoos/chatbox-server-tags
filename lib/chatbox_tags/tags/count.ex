@@ -11,6 +11,7 @@ defmodule ChatboxTags.Tags.Count do
     message
     |> String.split()
     |> Enum.frequencies()
+    |> IO.inspect()
   end
 
   defp sum_values({:ok, map1}, map2) do

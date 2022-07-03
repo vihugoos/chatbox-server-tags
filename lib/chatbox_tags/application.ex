@@ -15,9 +15,10 @@ defmodule ChatboxTags.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: ChatboxTags.PubSub},
       # Start the Endpoint (http/https)
-      ChatboxTagsWeb.Endpoint
+      ChatboxTagsWeb.Endpoint,
       # Start a worker by calling: ChatboxTags.Worker.start_link(arg)
       # {ChatboxTags.Worker, arg}
+      ChatboxTags.Scheduler
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
