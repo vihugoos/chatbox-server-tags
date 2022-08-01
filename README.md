@@ -9,7 +9,7 @@
   </h2>
   
   <p align="center">
-    Application to show a tag cloud with the most common words in the chat of the day. <br/> 
+    Application to return a tag cloud with the most common words in the chat of the day. <br/> 
     Explore <a href="https://hexdocs.pm/elixir/1.13.4/Kernel.html">Elixir</a> or <a href="https://hexdocs.pm/phoenix/Phoenix.html">Phoenix</a> docs &#187; <br/><br/>
     <a href="https://github.com/vihugoos/chatbox-server-tags/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/chatbox-server-tags/issues"> Request Feature </a>
