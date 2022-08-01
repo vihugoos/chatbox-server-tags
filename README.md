@@ -58,11 +58,7 @@ An application to save messages in the database and count the most common words 
     </a> &nbsp;
     <!-- Icon Phoenix --> 
     <a href="https://www.phoenixframework.org/"> 
-      <img align="center" alt="Icon-Phoenix" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phoenix/phoenix-original.svg"> 
-    </a> &nbsp;
-    <!-- Icon Prisma -->
-    <a href="https://www.prisma.io/"> 
-      <img align="center" alt="Icon-Prisma" height="35" src="https://user-images.githubusercontent.com/44311634/178335052-08bb4b29-c4da-4100-ae71-8b65cf6cd581.png"> 
+      <img align="center" alt="Icon-Phoenix" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phoenix/phoenix-original.svg"> 
     </a> &nbsp;
 </div>
 
