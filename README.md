@@ -46,7 +46,7 @@
 ## About The Project
 
 <img src="https://user-images.githubusercontent.com/44311634/178651138-54b1b11c-0776-48d0-8ec8-436671eeab48.png" align="center" align="center" alt="Project Home Page">
-An application to save messages in the database and count the most common words that day. A scheduler is created to run the application every day. 
+An application to save messages in the database and count the most common words of the day. A scheduler is created to run the application every day. 
 
 
 ### Built With 
