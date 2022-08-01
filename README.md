@@ -9,7 +9,7 @@
   </h2>
   
   <p align="center">
-    Application to show a tag cloud with the words that most appeared in the chat on the day. <br/>
+    Application to show a tag cloud with the most common words in the chat of the day. <br/> 
     Explore <a href="https://hexdocs.pm/elixir/1.13.4/Kernel.html">Elixir</a> or <a href="https://hexdocs.pm/phoenix/Phoenix.html">Phoenix</a> docs &#187; <br/><br/>
     <a href="https://github.com/vihugoos/chatbox-server-tags/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/chatbox-server-tags/issues"> Request Feature </a>
@@ -46,7 +46,7 @@
 ## About The Project
 
 <img src="https://user-images.githubusercontent.com/44311634/178651138-54b1b11c-0776-48d0-8ec8-436671eeab48.png" align="center" align="center" alt="Project Home Page">
-An application to save messages in the database and count the words that appear the most that day. A scheduler is created to run the application every day. 
+An application to save messages in the database and count the most common words that day. A scheduler is created to run the application every day. 
 
 
 ### Built With 
