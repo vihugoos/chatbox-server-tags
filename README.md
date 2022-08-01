@@ -57,7 +57,7 @@ An application to save messages in the database and count the most common words 
       <img align="center" alt="Icon-Elixir" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg"> 
     </a> &nbsp;
     <!-- Icon Phoenix --> 
-    <a href=""> 
+    <a href="https://www.phoenixframework.org/"> 
       <img align="center" alt="Icon-Phoenix" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phoenix/phoenix-original.svg"> 
     </a> &nbsp;
     <!-- Icon Prisma -->
