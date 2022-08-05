@@ -122,11 +122,28 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
    ```cmd
    mix ecto.setup  
    ```
-4. Create an `.env` file with the database connection configuration (don't forget to change the password) 
-   ```cmd
-   echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/feedback_widget?schema=public'" > .env 
-   ``` 
- 
+4. Change the config in `.\config\dev.exs`, put your postgres password 
+   ```elixir
+   config :chatbox_tags, ChatboxTags.Repo,
+    username: "postgres",
+    password: "yourPassword",
+    hostname: "localhost",
+    database: "chatbox_tags_dev",
+    stacktrace: true,
+    show_sensitive_data_on_connection_error: true,
+    pool_size: 10
+   ```
+5. Do the same procedure in `.\config\test.exs`, entering your database password 
+   ```elixir
+   config :chatbox_tags, ChatboxTags.Repo,
+    username: "postgres",
+    password: "yourPassword",
+    hostname: "localhost",
+    database: "chatbox_tags_test#{System.get_env("MIX_TEST_PARTITION")}",
+    pool: Ecto.Adapters.SQL.Sandbox,
+    pool_size: 10
+   ```
+
 
 <!---- USAGE EXAMPLES ----> 
 ## Usage
@@ -137,18 +154,8 @@ With the installation complete, we can start the project.
    ```bash
    mix phx.server 
    ```
-
-
-<!---- TESTS ----> 
-## Tests
-
-Keep all tests always with <strong>100% coverage</strong>, for more information see `.\coverage\Icov-report\index.html`
-
-* Run tests  
-   ```cmd
-   npm run test
-   ```
-  <br/>  
+   
+<br/>
 
 
 <!---- CONTRIBUTING ---->
