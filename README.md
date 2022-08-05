@@ -114,18 +114,18 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
    ```bash
    git clone https://github.com/vihugoos/chatbox-server-tags.git
    ```
-2. Inside the project root directory 
+2. Inside the project root directory install all project dependencies 
    ```cmd
-   mix ecto.create 
+   mix deps.get
    ```
-3. Create an `.env` file with the database connection configuration (don't forget to change the password) 
+3. Create and migrate your database 
+   ```cmd
+   mix ecto.setup  
+   ```
+4. Create an `.env` file with the database connection configuration (don't forget to change the password) 
    ```cmd
    echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/feedback_widget?schema=public'" > .env 
    ``` 
-4. Run the migrate 
-   ```cmd
-   npx prisma migrate dev
-   ```
  
 
 <!---- USAGE EXAMPLES ----> 
@@ -133,15 +133,10 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
 
 With the installation complete, we can start the project.
 
-* Starting the project 
+* Start Phoenix endpoint, after visit [`localhost:4000`](http://localhost:4000) from your browser 
    ```bash
    mix phx.server 
    ```
-   
-* To view the database feedback table in an easy and intuitive way, just use Prisma Studio
-  ```
-  npx prisma studio 
-  ```
 
 
 <!---- TESTS ----> 
