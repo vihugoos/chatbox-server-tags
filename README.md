@@ -154,8 +154,10 @@ With the installation complete, we can start the project.
    ```bash
    mix phx.server 
    ```
+
+Access [`localhost:4000/dashboard`](http://localhost:4000/dashboard) from your browser to see more information about your project. 
    
-<br/>
+<br/> 
 
 
 <!---- CONTRIBUTING ---->
