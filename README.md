@@ -95,7 +95,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    \q
    ```
    
-Now we are going to install Elixir and Phoenix to finish all the requirements to install the project.
+Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong> to finish all the requirements to install the project.
 
 1. Open PowerShell terminal as <strong>administrator</strong> 
    ```cmd
