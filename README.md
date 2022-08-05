@@ -95,7 +95,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    \q
    ```
    
-Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong> to finish all the requirements to install the project.
+Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong> to finish all the requirements to install the project. 
 
 1. Open PowerShell terminal as <strong>administrator</strong> 
    ```cmd
@@ -112,11 +112,11 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/feedback-widget-server.git
+   git clone https://github.com/vihugoos/chatbox-server-tags.git
    ```
-2. Inside the project root directory install all project dependencies 
+2. Inside the project root directory 
    ```cmd
-   npm install
+   mix ecto.create 
    ```
 3. Create an `.env` file with the database connection configuration (don't forget to change the password) 
    ```cmd
@@ -135,7 +135,7 @@ With the installation complete, we can start the project.
 
 * Starting the project 
    ```bash
-   npm run dev  
+   mix phx.server 
    ```
    
 * To view the database feedback table in an easy and intuitive way, just use Prisma Studio
