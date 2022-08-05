@@ -69,7 +69,7 @@ An application to save messages in the database and count the most common words 
 <!---- GETTING STARTED ----> 
 ## Getting Started
 
-To get started, you need to have <strong>Node.js 16+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>PostgreSQL</strong> installed, for more information visit <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"> PostgreSQL Downloads</a>. 
+To get started, you need to have the package manager <strong>Chocolatey</strong> installed on your machine, for more information visit <a href="https://chocolatey.org/install">Installing Chocolatey</a>. You will also need to have <strong>PostgreSQL</strong> installed, for more information visit <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"> PostgreSQL Downloads</a>. 
 
 <strong>WARNING</strong>: Add PostgreSQL executable path to user <strong>environment variables</strong>, to be able to use the `psql` command in the terminal, or create a database called `feedback_widget` via graphical user interface using the pgAdmin, it's up to you what you think is best. <strong>Note:</strong> This installation guide is based on Windows systems. 
 
@@ -94,6 +94,19 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```cmd
    \q
    ```
+   
+Now we are going to install Elixir and Phoenix to finish all the requirements to install the project.
+
+1. Open PowerShell terminal as <strong>administrator</strong> 
+   ```cmd
+   choco install elixir
+   ```
+2. Install the framework Phoenix (<i>if you ask something, just accept everything with</i> `Y`)
+   ```cmd
+   mix archive.install hex phx_new
+   ```
+<br/> 
+
 
 ### Installation 
 
