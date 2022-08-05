@@ -71,12 +71,12 @@ An application to save messages in the database and count the most common words 
 
 To get started, you need to have the package manager <strong>Chocolatey</strong> installed on your machine, for more information visit <a href="https://chocolatey.org/install">Installing Chocolatey</a>. You will also need to have <strong>PostgreSQL</strong> installed, for more information visit <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"> PostgreSQL Downloads</a>. 
 
-<strong>WARNING</strong>: Add PostgreSQL executable path to user <strong>environment variables</strong>, to be able to use the `psql` command in the terminal, or create a database called `feedback_widget` via graphical user interface using the pgAdmin, it's up to you what you think is best. <strong>Note:</strong> This installation guide is based on Windows systems. 
+<strong>WARNING</strong>: Add PostgreSQL executable path to user <strong>environment variables</strong>, to be able to use the `psql` command in the terminal, or create a database called `chatbox_tags_dev` via graphical user interface using the pgAdmin, it's up to you what you think is best. <strong>Note:</strong> This installation guide is based on Windows systems. 
 
 
 ### Prerequisites 
 
-First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `feedback_widget`, just run the first command below. 
+First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `chatbox_tags_dev`, just run the first command below. 
 
 1. Open cmd terminal as <strong>administrator</strong> (<i>looking at psql version, in this case 14</i>)
    ```cmd
@@ -88,7 +88,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```
 3. Create a database 
    ```cmd
-   CREATE DATABASE feedback_widget;
+   CREATE DATABASE chatbox_tags_dev;
    ```
 4. Quit psql 
    ```cmd
