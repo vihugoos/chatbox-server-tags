@@ -150,7 +150,7 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
 
 With the installation complete, we can start the project.
 
-* Start Phoenix endpoint, after visit [`localhost:4000`](http://localhost:4000) from your browser 
+* Start Phoenix endpoint, after access [`localhost:4000`](http://localhost:4000) from your browser 
    ```bash
    mix phx.server 
    ```
