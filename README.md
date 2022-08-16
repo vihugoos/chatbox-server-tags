@@ -101,7 +101,7 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
    ```cmd
    choco install elixir
    ```
-2. Install the framework Phoenix (<i>if you ask something, just accept everything with</i> `Y`)
+2. Install the framework Phoenix (<i>if something is asked, just accept with</i> `Y`)
    ```cmd
    mix archive.install hex phx_new
    ```
