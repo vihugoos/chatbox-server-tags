@@ -118,11 +118,7 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
    ```cmd
    mix deps.get
    ```
-3. Create and migrate your database 
-   ```cmd
-   mix ecto.setup  
-   ```
-4. Change the config in `.\config\dev.exs`, put your postgres password 
+3. Change the config in `.\config\dev.exs`, put your postgres password 
    ```elixir
    config :chatbox_tags, ChatboxTags.Repo,
     username: "postgres",
@@ -133,7 +129,7 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
     show_sensitive_data_on_connection_error: true,
     pool_size: 10
    ```
-5. Do the same procedure in `.\config\test.exs`, entering your database password 
+4. Do the same procedure in `.\config\test.exs`, entering your database password 
    ```elixir
    config :chatbox_tags, ChatboxTags.Repo,
     username: "postgres",
@@ -142,6 +138,10 @@ Now we are going to install <strong>Elixir</strong> and <strong>Phoenix</strong>
     database: "chatbox_tags_test#{System.get_env("MIX_TEST_PARTITION")}",
     pool: Ecto.Adapters.SQL.Sandbox,
     pool_size: 10
+   ```
+5. Create and migrate your database 
+   ```cmd
+   mix ecto.setup  
    ```
 
 
