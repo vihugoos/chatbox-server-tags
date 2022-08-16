@@ -45,7 +45,7 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<img src="https://user-images.githubusercontent.com/44311634/184963838-5826e422-39ca-438a-9d5b-25a7f8f105a5.png" align="center" align="center" alt="Project Home Page">
+<img src="https://user-images.githubusercontent.com/44311634/184965565-2aa57f39-db23-4181-885b-7d41cac08b16.png" align="center" align="center" alt="Project Home Page">
 An application to save messages in the database and count the most common words of the day. A scheduler is created to run the application every day. 
 
 
