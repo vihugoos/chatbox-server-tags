@@ -18,7 +18,7 @@ config :chatbox_tags, ChatboxTagsWeb.Endpoint,
   live_view: [signing_salt: "q81gyO1y"]
 
 config :chatbox_tags, ChatboxTags.Scheduler, jobs: [
-  {"* * * * *", {ChatboxTags.Tags.Count, :call, []}},
+  {"@daily", {ChatboxTags.Tags.Count, :call, []}},
 ]
 
 # Configures the mailer
